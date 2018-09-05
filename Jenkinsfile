@@ -24,8 +24,8 @@ pipeline {
         { 
             steps 
             { 
-                echo 'hi'
-                powershell './deploy.ps1'
+                echo 'Deployment Stage'
+                /*powershell './deploy.ps1'*/
             }
             
         }
